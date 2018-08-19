@@ -1,0 +1,15 @@
+a = int(input("Enter the first value: "))
+b = int(input("Enter the second value: "))
+op = input("Enter the operators: +, -, / or * : ")
+
+if op == "+":
+    print(a + b)
+elif op == "-":
+    print(a-b)
+elif op == "/":
+    print(a/b)
+elif op == "*":
+    print(a*b)
+
+else:
+    print("Wrong operator")
